@@ -21,6 +21,17 @@ opencode-helpers (#92) entsprechend umgebaut (Fach-Ebene vs. Zweig-Ebene,
 unterricht ohne Zweig-Fach-Ordner).
 
 ## Completed (this cycle)
+- [x] 2026-10-12 — Homework-Discovery PMM (PMMx/PMMy/PMM): README-Retrofit
+      `## Aufgaben` (erste Sektion) in `4ahwit-x/` (2 Einträge: HÜ-Kontrolle
+      22.9., SA-01 Selbststudium 6.10. → Index-Link auf
+      `unterricht/SA-01-datenvisualisierung-ggplot/`), `4ahwit-y/` (4 Einträge:
+      18.9. Repo-Anlage, 25.9. Betriebsdaten, 2.10. sd/var+n−1, 9.10.
+      OpenCode-Prompt) und `5ahwit/` (2 Einträge: Setup-HÜ 23.9. — Evidenz
+      `wiederholungswuensche.md`, KM7-02 Chi-Quadrat 30.9.). Neue
+      `Aufgabe.md` in `4ahwit-y/20206-10-09_opencode/` (PROMPT.md/ANSWER.md);
+      legacy `hausaufgabe.md` in `5ahwit/2026-09-30-chi-quadrat-test/`
+      vollständig belassen. Generierte Aufgabe-Dateien bewusst
+      **uncommitted** zur Review.
 - [x] #30 CLOSED 2026-10-06 — Folien-Layout: `assets/slides.css` gibt den
       reveal.js-Folien einen schmalen, zentrierten Satzspiegel
       (`--pmm-slide-measure: 1000px`, Grundschrift 32px) wie die
@@ -65,6 +76,7 @@ unterricht ohne Zweig-Fach-Ordner).
       Badge, `prepared-lessons/`, Live-Server/GitHub Pages.
 
 ## Pending
+- [ ] **Wissensüberprüfung 4AHWIT-x am 2026-10-13** (GRG-PMM-T #4): Exam + Lösungen committed; nach Prüfung reviewen/schließen.
 - [ ] **SA-01–SA-03 inhaltlich auf 90 min vertiefen** (Teil der Überarbeitung).
 - [ ] **Einstiegstest 4HWIT** korrigieren → Bonus-UE bzw. UE 4–5 anpassen.
 - [ ] **Einstiegstest 5HWIT**: DOE-Block + Umwelt-Vorwissen auswerten.
@@ -72,6 +84,11 @@ unterricht ohne Zweig-Fach-Ordner).
 - [ ] JG3 Phase 0: L04 Abschnitt 3 (Poisson) durcharbeiten, dann L04 ✅; danach L05+.
 
 ## Notes
+- 2026-10-12: Ordnername `4ahwit-y/20206-10-09_opencode/` enthält einen
+  Datumstippfehler (`20206` statt `2026`) — bewusst **nicht** umbenannt
+  (README-Verlauf + Aufgabe.md verweisen darauf); Pitfall siehe PITFALLS.md.
+  `5ahwit/README.md` Sektion `## Hausaufgaben` verweist auf eine
+  `hausaufgaben/`-Ablage, die (noch) nicht existiert — Klärung offen.
 - R 4.5.x mit `tidyverse`, `palmerpenguins`; Verifikation per `Rscript`
   (Arbeitsverzeichnis = Repo-Root). Betriebsdaten `assets/betriebsdaten.csv`
   (nur M3 hat Ausschuss: 4 von 40 bei ±0,15 mm — M1/M2 sauber; KM5-02s

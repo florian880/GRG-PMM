@@ -2,6 +2,21 @@
 
 ## Open Tasks
 
+### 5ahwit: `## Hausaufgaben` verweist auf fehlende Ablage
+**Priority:** low
+**Context:** `5ahwit/README.md` Sektion `## Hausaufgaben` verweist auf
+`hausaufgaben/` („Kohorten-Kopien der Master-HAs") — der Ordner existiert
+nicht. Festgestellt bei Homework-Discovery 2026-10-12.
+**Action:** Ablage anlegen (Kopien aus `unterricht/SA-0N-*/hausaufgabe.md`)
+oder Verweis aus dem README entfernen.
+
+### Wissensüberprüfung 4AHWIT-x am 2026-10-13 (GRG-PMM-T #4)
+**Priority:** high (Prüfung ist morgen)
+**Context:** Erste WÜ der Kohorte x: 25 MC + 3 Freitext (145 P) — Setup,
+SA-00, R-Basics, ggplot (Selbststudium), Git. Dateien committed in
+`GRG-PMM-T/4ahwit-x/`. Grundlage war der korrigierte README-Verlauf (#31).
+**Action:** Nach der Prüfung: ggf. Anpassungen, dann GRG-PMM-T #4 schließen.
+
 ### Andere Repos auf die neue lehrplan-Ordnung ziehen (opencode-helpers #92)
 **Priority:** medium
 **Context:** Der `lehrplan`-Skill (opencode-helpers #92) verlangt jetzt

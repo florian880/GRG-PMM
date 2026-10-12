@@ -1,6 +1,22 @@
 # 4AHWIT-X — PMM Unterlagen
 
+## Aufgaben
+
+Kanonische Liste aller Aufgaben — Details im jeweiligen Tagesordner bzw. der verlinkten Lesson.
+
+- 2026-09-22: HÜ-Kontrolle Setup (git/VS Code/R/RStudio) + Start R-Basics UE 1 → [2026-09-22_git_vscode_Rstudio_installation/](./2026-09-22_git_vscode_Rstudio_installation/)
+- 2026-10-06: SA-01 ggplot als Selbststudium-Aufgabe, ins persönliche git pushen → [unterricht/SA-01-datenvisualisierung-ggplot/](../unterricht/SA-01-datenvisualisierung-ggplot/)
+
 ## 2026-10-06__was kann r
+
+Heute: SA-00 „Was kann R?" live. SA-01 (ggplot) gab es als
+Selbststudium-Aufgabe — nicht live unterrichtet.
+
+- alle Übungen von der Folie selber commiten!
+
+Aufgabe: <https://georgernstgraf.github.io/GRG-PMM/unterricht/SA-01-datenvisualisierung-ggplot/praesentation.html>
+
+Ins persönliche git pushen!!
 
 ## 2026-09-22
 
@@ -35,7 +51,9 @@ Weiteres Material (nur Verweise, keine Kopien):
 
 - Übersichtsfolie „Was kann R?":
   `../unterricht/SA-00-was-kann-r/praesentation.html`
-- Lektion SA-01 (heute live): `../unterricht/SA-01-datenvisualisierung-ggplot/lesson.html`
+- Lektion SA-01 (ggplot — **nicht** live am 22.9.; am 2026-10-06 als
+  Selbststudium-Aufgabe verteilt, siehe Eintrag oben):
+  `../unterricht/SA-01-datenvisualisierung-ggplot/lesson.html`
 - Lektion SA-02 (nächste DS): `../unterricht/SA-02-daten-transformieren-dplyr/lesson.html`
 - Hausaufgabe UE 1:
   `../unterricht/SA-01-datenvisualisierung-ggplot/hausaufgabe.md`
