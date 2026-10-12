@@ -3,6 +3,20 @@
 Architectural and technical decisions made in this project.
 Each entry documents WHAT was decided and WHY.
 
+## 2026-10-12: Knowledge-Checks ins private T-Repo (`GRG-PMM-T`), nicht ins Unterrichts-Repo (#31)
+
+- **Choice:** Exam- und Lösungsdateien gehören in das private
+  Schwester-Repo `GRG-PMM-T` (Ablage: flach im Klassenordner, z. B.
+  `4ahwit-x/knowledge_4ahwit-x_2026-10-13.md` + `_solutions.md`), niemals
+  in das öffentliche Unterrichts-Repo. Umgesetzt im `knowledge-exam`-Skill
+  (opencode-helpers `e8813e6`): Ziel-Repo-Resolution + Up-to-date-Check +
+  Pflichtlektüre der AGENTS.md des T-Repos.
+- **Reason:** Die `-T`-Repos sind Georgs private Prüfungs-Repos (Konvention
+  über alle Fächer: `GRG-INFI-T`, `GRG-JAVA-T`, `GRG-SWP-T`, …); im
+  Unterrichts-Repo wären Lösungen faktisch öffentlich (GitHub Pages).
+- **Tradeoff:** Der `knowledge-exam`-Skill verlangt seitdem keine Commits
+  der generierten Dateien, aber Georg kann sie im T-Repo direkt committen.
+
 ## 2026-10-04: create-lesson kohortenagnostisch — Thema→KM tragend, UE optional (#26)
 
 - **Choice:** Lessons gehören zu einem **Thema, das einen Teil eines KM

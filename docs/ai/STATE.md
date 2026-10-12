@@ -65,6 +65,7 @@ unterricht ohne Zweig-Fach-Ordner).
       Badge, `prepared-lessons/`, Live-Server/GitHub Pages.
 
 ## Pending
+- [ ] **Wissensüberprüfung 4AHWIT-x am 2026-10-13** (GRG-PMM-T #4): Exam + Lösungen committed; nach Prüfung reviewen/schließen.
 - [ ] **SA-01–SA-03 inhaltlich auf 90 min vertiefen** (Teil der Überarbeitung).
 - [ ] **Einstiegstest 4HWIT** korrigieren → Bonus-UE bzw. UE 4–5 anpassen.
 - [ ] **Einstiegstest 5HWIT**: DOE-Block + Umwelt-Vorwissen auswerten.
