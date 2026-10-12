@@ -1,6 +1,6 @@
 # Hausaufgabe UE 1 — Daten visualisieren
 
-Name: _____________ &nbsp;&nbsp;&nbsp; Abgabe: _____________
+Name: Florian Benesch &nbsp;&nbsp;&nbsp; Abgabe: _____________
 
 **Lektüre:** R4DS 2e, [Kap. 1 Data visualization](https://r4ds.hadley.nz/data-visualize.html)
 und [Kap. 2 Workflow: basics](https://r4ds.hadley.nz/workflow-basics.html) —
@@ -20,8 +20,8 @@ library(palmerpenguins)
 glimpse(penguins)
 ```
 
-- Wie viele Zeilen (Pinguine)? ______ &nbsp; Wie viele Spalten? ______
-- Welchen Typ hat `species`? ________ &nbsp; `body_mass_g`? ________
+- Wie viele Zeilen (Pinguine)? 344 &nbsp; Wie viele Spalten? 8
+- Welchen Typ hat `species`? factor &nbsp; `body_mass_g`? integer
 
 ---
 
@@ -35,9 +35,9 @@ ggplot(penguins,
   geom_point() +
   labs(x = "Flossengröße (mm)", y = "Körpermasse (g)")
 ```
-
-- Steigt die Körpermasse mit der Flossengröße für **alle drei Arten**? ________
-- Welche Art ist am schwersten? _______________
+![alt text](image.png)
+- Steigt die Körpermasse mit der Flossengröße für **alle drei Arten**? Körpermasse steigt mit Flossengröße
+- Welche Art ist am schwersten? Gentoo
 
 ---
 
@@ -50,9 +50,10 @@ ggplot(penguins, aes(x = species, y = body_mass_g)) + geom_point(color = "red")
 ggplot(penguins, aes(x = species, y = body_mass_g, color = species)) + geom_point()
 ```
 
-Vorhersage: _________________________________________________
+Vorhersage: erste Zeile alles rot(colour=rot), zweite nach species eingefärbt(color=species)
 
-<br>R-Ergebnis (ausführen und vergleichen): _________________________________________________
+<br>R-Ergebnis (ausführen und vergleichen): Alle Punkte sind rot.  
+![alt text](image-1.png)
 
 **b)** Was passiert, wenn du das `+` an den Zeilenanfang stellst?
 
@@ -61,9 +62,9 @@ ggplot(penguins, aes(x = body_mass_g))
   + geom_histogram(binwidth = 250)
 ```
 
-Vorhersage: _________________________________________________
+Vorhersage: funktioniert nicht
 
-<br>R-Ergebnis: _________________________________________________
+<br>R-Ergebnis: Hat tatsächlich nicht funktioniert ---> Fehler
 
 ---
 
@@ -72,9 +73,9 @@ Vorhersage: _________________________________________________
 Wähle zwei Zahlen-Spalten der Pinguine, die dich interessieren, und baue ein
 Streudiagramm mit sinnvollen `labs()`-Achsentiteln. Ergänze `geom_smooth()`.
 
-- Deine Frage (in einem Satz): _________________________________________________
-- Was zeigt der Plot? (2 Sätze): _________________________________________________
-
+- Deine Frage (in einem Satz): Hängt die Schnabellänge der Pinguine mit ihrer Körpermasse zusammen?
+- Was zeigt der Plot? (2 Sätze): Pinguine mit längerem Schnabel sind im Durchschnitt schwerer. Der Trend ist klar steigend, auch wenn die Punkte etwas streuen.
+![alt text](image-2.png)
   _________________________________________________
 
 ---
@@ -86,9 +87,11 @@ Antworte in eigenen Worten (1–2 Sätze je Frage):
 - Warum steht das `+` in `ggplot2` **immer am Zeilenende** — was würde auch
   technisch passieren, wenn du es ans Zeilenanfang stellst? Wie meldet sich R?
 
-  _________________________________________________
+  Das + zeigt R, dass der Befehl weitergeht und noch eine nächste Zeile dazugehört.
+Wenn du das + an den Anfang stellst, denkt R, dass ein neuer Befehl beginnt, und meldet einen Fehler
 
 - Warum speichert man Werte mit `<-` in einem Skript, statt sie in der
   Konsole direkt auszurechnen?
 
-  _________________________________________________
+  Im Skript bleiben deine Berechnungen dauerhaft gespeichert, sodass du sie jederzeit wieder ausführen kannst.
+In der Konsole verschwinden alle Ergebnisse, sobald du R schließt — im Skript ist alles nachvollziehbar und wiederholbar.
