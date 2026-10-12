@@ -1,5 +1,14 @@
 # 4AHWIT — Kohorte y
 
+## Aufgaben
+
+Kanonische Liste aller Aufgaben — Details im jeweiligen Tagesordner.
+
+- 2026-09-18: GitHub-User + Repository „PMM" anlegen, Repo-Link mailen (Details im Verlauf unten)
+- 2026-09-25: Betriebsdaten auswerten (mean/median/sd/IQR, pnorm, Histogramm) — Commit im PMM-Repo → [2026-09-25__r-kennzahlen-und-verteilungen/](./2026-09-25__r-kennzahlen-und-verteilungen/)
+- 2026-10-02: sd vs. var & n−1 erklären, Setup fertig, dbinom nachrechnen → [2026-10-02-binomialkoeffizient-pascalsches-dreieck/](./2026-10-02-binomialkoeffizient-pascalsches-dreieck/)
+- 2026-10-09: OpenCode-Prompt „3. Klasse mit R effizienter lösen" (PROMPT.md/ANSWER.md) → [20206-10-09_opencode/](./20206-10-09_opencode/)
+
 ## 2026-10-02 Wiederholungswünsche
 
 - Konfidenzintervalle (CI) für Mittelwert und Anteilswert, zweiseitig, (einseitig)

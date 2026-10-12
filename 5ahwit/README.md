@@ -1,5 +1,12 @@
 # 5AHWIT
 
+## Aufgaben
+
+Kanonische Liste aller Aufgaben — Details im jeweiligen Tagesordner bzw. der verlinkten Lesson.
+
+- 2026-09-23: Setup-HÜ — PMM-Repo auf GitHub anlegen (public, mit README) + Wiederholungswünsche der 4. Klasse im Repo-README festhalten → [2026-09-23__setup_fertig/](./2026-09-23__setup_fertig/)
+- 2026-09-30: Chi-Quadrat-Test (KM7-02) — Navarro Kap. 12, Aufgaben im RStudio-Projekt `pmm-km7-02` → [2026-09-30-chi-quadrat-test/](./2026-09-30-chi-quadrat-test/)
+
 ## 2026-09-23__git/vscode/Rstudio Installation
 
 Klassenordner der **5AHWIT** für das Fach **PMM** (Prozessmanagement,
